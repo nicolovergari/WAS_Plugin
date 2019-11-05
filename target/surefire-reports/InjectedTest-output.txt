@@ -1,0 +1,43 @@
+Picking up existing exploded jenkins.war at C:\Users\nivergari\Documents\Deploy_Plugin\websphere-deployer-plugin-master\target\jenkins-for-test
+Nov 05, 2019 4:29:35 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+Nov 05, 2019 4:29:35 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.15.v20160210
+Nov 05, 2019 4:29:36 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Nov 05, 2019 4:29:36 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@5be46f9d{/,file:/C:/Users/nivergari/Documents/Deploy_Plugin/websphere-deployer-plugin-master/target/jenkins-for-test/,AVAILABLE}{C:\Users\nivergari\Documents\Deploy_Plugin\websphere-deployer-plugin-master\target\jenkins-for-test}
+Nov 05, 2019 4:29:36 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@e57b96d{HTTP/1.1}{localhost:54101}
+Nov 05, 2019 4:29:36 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @2001ms
+Nov 05, 2019 4:29:36 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Nov 05, 2019 4:29:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Nov 05, 2019 4:29:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Nov 05, 2019 4:29:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Nov 05, 2019 4:29:54 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Nov 05, 2019 4:29:56 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Nov 05, 2019 4:29:57 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 54134
+Nov 05, 2019 4:29:57 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Nov 05, 2019 4:29:57 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.15.v20160210
+Nov 05, 2019 4:29:57 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@2cae1042{/,null,AVAILABLE}
+Nov 05, 2019 4:29:57 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@7e928e2f{HTTP/1.1}{0.0.0.0:54136}
+Nov 05, 2019 4:29:57 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @23528ms
+Nov 05, 2019 4:30:00 PM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@e57b96d{HTTP/1.1}{localhost:0}
+Nov 05, 2019 4:30:00 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@5be46f9d{/,file:/C:/Users/nivergari/Documents/Deploy_Plugin/websphere-deployer-plugin-master/target/jenkins-for-test/,UNAVAILABLE}{C:\Users\nivergari\Documents\Deploy_Plugin\websphere-deployer-plugin-master\target\jenkins-for-test}
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
