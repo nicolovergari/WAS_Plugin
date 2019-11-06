@@ -7,10 +7,10 @@ import java.util.*;
 public class InjectedTest extends junit.framework.TestCase {
   public static junit.framework.Test suite() throws Exception {
     Map parameters = new HashMap();
-    parameters.put("basedir","C:\\Users\\nivergari\\Documents\\Deploy_Plugin\\websphere-deployer-plugin-master");
+    parameters.put("basedir","C:\\Users\\nivergari\\Documents\\Deploy_Plugin\\Plugin\\WAS_Plugin");
     parameters.put("artifactId","VW-websphere-deployer");
-    parameters.put("outputDirectory","C:\\Users\\nivergari\\Documents\\Deploy_Plugin\\websphere-deployer-plugin-master\\target\\classes");
-    parameters.put("testOutputDirectory","C:\\Users\\nivergari\\Documents\\Deploy_Plugin\\websphere-deployer-plugin-master\\target\\test-classes");
+    parameters.put("outputDirectory","C:\\Users\\nivergari\\Documents\\Deploy_Plugin\\Plugin\\WAS_Plugin\\target\\classes");
+    parameters.put("testOutputDirectory","C:\\Users\\nivergari\\Documents\\Deploy_Plugin\\Plugin\\WAS_Plugin\\target\\test-classes");
     parameters.put("requirePI","true");
     return new org.jvnet.hudson.test.PluginAutomaticTestBuilder().build(parameters);
   }

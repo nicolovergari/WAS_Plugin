@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/websphere-deployer.iml" filepath="$PROJECT_DIR$/websphere-deployer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VW-websphere-deployer.iml" filepath="$PROJECT_DIR$/VW-websphere-deployer.iml" />
     </modules>
   </component>
 </project>

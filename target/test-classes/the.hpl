@@ -7,11 +7,10 @@ Hudson-Version: 1.608
 Jenkins-Version: 1.608
 Plugin-Developers: Greg Peters:gregp:gregpeters00@gmail.com,Valerio Po
  nte:valeriop:
-Libraries: C:\Users\nivergari\Documents\Deploy_Plugin\websphere-deploy
- er-plugin-master\src\main\resources,C:\Users\nivergari\Documents\Depl
- oy_Plugin\websphere-deployer-plugin-master\target\classes,C:\Users\ni
- vergari\.m2\repository\commons-lang\commons-lang\2.5\commons-lang-2.5
- .jar
-Resource-Path: C:\Users\nivergari\Documents\Deploy_Plugin\websphere-de
- ployer-plugin-master\src\main\webapp
+Libraries: C:\Users\nivergari\Documents\Deploy_Plugin\Plugin\WAS_Plugi
+ n\src\main\resources,C:\Users\nivergari\Documents\Deploy_Plugin\Plugi
+ n\WAS_Plugin\target\classes,C:\Users\nivergari\.m2\repository\commons
+ -lang\commons-lang\2.5\commons-lang-2.5.jar
+Resource-Path: C:\Users\nivergari\Documents\Deploy_Plugin\Plugin\WAS_P
+ lugin\src\main\webapp
 

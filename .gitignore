@@ -8,3 +8,5 @@ work/
 .options
 /target/
 /target/
+
+.idea/
