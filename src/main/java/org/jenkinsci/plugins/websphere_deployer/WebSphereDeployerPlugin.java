@@ -230,7 +230,7 @@ public class WebSphereDeployerPlugin extends Builder {
     	if(build == null) {
     		throw new IllegalStateException("Build cannot be null");
     	}
-    	Result buildResult = build.getResult();
+    	Result buildResult = Result.SUCCESS;
     	if(buildResult == null) {
     		throw new IllegalStateException("Build result cannot be null");
     	}
