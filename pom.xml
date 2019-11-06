@@ -7,12 +7,11 @@
 	    <version>2.5</version>
 	</parent>
 
-    <artifactId>websphere-deployer</artifactId>
-    <version>1.6.2-SNAPSHOT</version>
+    <artifactId>VW-websphere-deployer</artifactId>
+    <version>1.6.2</version>
     <packaging>hpi</packaging>
     <name>VW WebSphere Deployer Plugin</name>
     <inceptionYear>2013</inceptionYear>
-    <url>https://wiki.jenkins-ci.org/display/JENKINS/WebSphere+Deployer+Plugin</url>
 
     <description>
     	A Jenkins plugin for automatically deploying artifacts to a variety of WebSphere servers.
@@ -140,9 +139,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:ssh://github.com/jenkinsci/websphere-deployer-plugin.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/jenkinsci/websphere-deployer-plugin.git</developerConnection>
-        <url>https://github.com/jenkinsci/websphere-deployer-plugin</url>
+        <connection>scm:git:ssh://https://github.com/nicolovergari/WAS_Plugin.git</connection>
+        <developerConnection>scm:git:ssh://git@https://github.com/nicolovergari/WAS_Plugin.git</developerConnection>
+        <url>https://https://github.com/nicolovergari/WAS_Plugin</url>
         <tag>HEAD</tag>
     </scm>
 

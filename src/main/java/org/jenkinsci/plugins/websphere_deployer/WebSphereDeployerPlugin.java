@@ -8,10 +8,7 @@ import hudson.model.BuildListener;
 import hudson.model.Result;
 import hudson.model.AbstractBuild;
 import hudson.model.AbstractProject;
-import hudson.tasks.BuildStepDescriptor;
-import hudson.tasks.BuildStepMonitor;
-import hudson.tasks.Notifier;
-import hudson.tasks.Publisher;
+import hudson.tasks.*;
 import hudson.util.FormValidation;
 
 import java.io.ByteArrayOutputStream;
@@ -41,7 +38,7 @@ import com.ibm.icu.text.SimpleDateFormat;
  *
  * @author Greg Peters
  */
-public class WebSphereDeployerPlugin extends Notifier {
+public class WebSphereDeployerPlugin extends Builder {
 
 	private final static String OPERATION_REINSTALL = "1";
     private final String ipAddress;
@@ -543,7 +540,7 @@ public class WebSphereDeployerPlugin extends Notifier {
     }
 
     @Extension
-    public static final class DescriptorImpl extends BuildStepDescriptor<Publisher> {
+    public static final class DescriptorImpl extends BuildStepDescriptor<Builder> {
 
         private String adminClientPath;
         private String orbClientPath;

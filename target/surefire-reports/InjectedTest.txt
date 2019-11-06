@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: InjectedTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.232 sec - in InjectedTest
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.449 sec <<< FAILURE! - in InjectedTest
+testPluginActive(org.jvnet.hudson.test.PluginAutomaticTestBuilder$OtherTests)  Time elapsed: 0.016 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: websphere-deployer failed to start
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertNotNull(Assert.java:256)
+	at junit.framework.TestCase.assertNotNull(TestCase.java:426)
+	at org.jvnet.hudson.test.PluginAutomaticTestBuilder$OtherTests.testPluginActive(PluginAutomaticTestBuilder.java:96)
+
