@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Built-By: nivergari
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_221
+Extension-Name: VW-websphere-deployer
+Specification-Title: A Jenkins plugin for automatically deploying arti
+ facts to a variety of WebSphere servers.
+     	Deploys your web artifacts locally or remotely to IBM WebSphere 
+ Application Server or IBM WebSphere Liberty Profile
+Implementation-Title: VW-websphere-deployer
+Implementation-Version: 1.6.2
+Group-Id: org.jenkins-ci.plugins
+Short-Name: VW-websphere-deployer
+Long-Name: VW WebSphere Deployer Plugin
+Plugin-Version: 1.6.2
+Hudson-Version: 1.608
+Jenkins-Version: 1.608
+Plugin-Developers: Greg Peters:gregp:gregpeters00@gmail.com,Valerio Po
+ nte:valeriop:
+
