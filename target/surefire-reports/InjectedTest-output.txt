@@ -1,43 +1,43 @@
-Exploding C:\Users\nivergari\.m2\repository\org\jenkins-ci\main\jenkins-war\1.608\jenkins-war-1.608-war-for-test.jar into C:\Users\nivergari\Documents\Deploy_Plugin\Plugin\WAS_Plugin\target\jenkins-for-test
-Nov 06, 2019 11:04:47 AM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+Picking up existing exploded jenkins.war at C:\Users\nivergari\Documents\Deploy_Plugin\Plugin\WAS_Plugin\target\jenkins-for-test
+Nov 06, 2019 11:10:57 AM org.eclipse.jetty.server.handler.ContextHandler setContextPath
 WARNING: Empty contextPath
-Nov 06, 2019 11:04:47 AM org.eclipse.jetty.server.Server doStart
+Nov 06, 2019 11:10:57 AM org.eclipse.jetty.server.Server doStart
 INFO: jetty-9.2.15.v20160210
-Nov 06, 2019 11:04:47 AM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+Nov 06, 2019 11:10:57 AM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
 INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
-Nov 06, 2019 11:04:47 AM org.eclipse.jetty.server.handler.ContextHandler doStart
-INFO: Started o.e.j.w.WebAppContext@32c4e8b2{/,file:/C:/Users/nivergari/Documents/Deploy_Plugin/Plugin/WAS_Plugin/target/jenkins-for-test/,AVAILABLE}{C:\Users\nivergari\Documents\Deploy_Plugin\Plugin\WAS_Plugin\target\jenkins-for-test}
-Nov 06, 2019 11:04:48 AM org.eclipse.jetty.server.AbstractConnector doStart
-INFO: Started ServerConnector@39655d3e{HTTP/1.1}{localhost:58934}
-Nov 06, 2019 11:04:48 AM org.eclipse.jetty.server.Server doStart
-INFO: Started @3613ms
-Nov 06, 2019 11:04:48 AM jenkins.InitReactorRunner$1 onAttained
+Nov 06, 2019 11:10:57 AM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@5be46f9d{/,file:/C:/Users/nivergari/Documents/Deploy_Plugin/Plugin/WAS_Plugin/target/jenkins-for-test/,AVAILABLE}{C:\Users\nivergari\Documents\Deploy_Plugin\Plugin\WAS_Plugin\target\jenkins-for-test}
+Nov 06, 2019 11:10:57 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@e57b96d{HTTP/1.1}{localhost:59034}
+Nov 06, 2019 11:10:57 AM org.eclipse.jetty.server.Server doStart
+INFO: Started @2031ms
+Nov 06, 2019 11:10:58 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Started initialization
-Nov 06, 2019 11:05:07 AM jenkins.InitReactorRunner$1 onAttained
+Nov 06, 2019 11:11:14 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Listed all plugins
-Nov 06, 2019 11:05:08 AM jenkins.InitReactorRunner$1 onAttained
+Nov 06, 2019 11:11:14 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Prepared all plugins
-Nov 06, 2019 11:05:08 AM jenkins.InitReactorRunner$1 onAttained
+Nov 06, 2019 11:11:14 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Started all plugins
-Nov 06, 2019 11:05:08 AM jenkins.InitReactorRunner$1 onAttained
+Nov 06, 2019 11:11:14 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Augmented all extensions
-Nov 06, 2019 11:05:09 AM jenkins.InitReactorRunner$1 onAttained
+Nov 06, 2019 11:11:16 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Loaded all jobs
-Nov 06, 2019 11:05:11 AM org.jenkinsci.main.modules.sshd.SSHD start
-INFO: Started SSHD at port 58966
-Nov 06, 2019 11:05:11 AM jenkins.InitReactorRunner$1 onAttained
+Nov 06, 2019 11:11:18 AM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 59065
+Nov 06, 2019 11:11:18 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Completed initialization
-Nov 06, 2019 11:05:11 AM org.eclipse.jetty.server.Server doStart
+Nov 06, 2019 11:11:18 AM org.eclipse.jetty.server.Server doStart
 INFO: jetty-9.2.15.v20160210
-Nov 06, 2019 11:05:11 AM org.eclipse.jetty.server.handler.ContextHandler doStart
-INFO: Started o.e.j.s.ServletContextHandler@6f2cb653{/,null,AVAILABLE}
-Nov 06, 2019 11:05:11 AM org.eclipse.jetty.server.AbstractConnector doStart
-INFO: Started ServerConnector@61884cb1{HTTP/1.1}{0.0.0.0:58968}
-Nov 06, 2019 11:05:11 AM org.eclipse.jetty.server.Server doStart
-INFO: Started @27126ms
-Nov 06, 2019 11:05:14 AM org.eclipse.jetty.server.AbstractConnector doStop
-INFO: Stopped ServerConnector@39655d3e{HTTP/1.1}{localhost:0}
-Nov 06, 2019 11:05:14 AM org.eclipse.jetty.server.handler.ContextHandler doStop
-INFO: Stopped o.e.j.w.WebAppContext@32c4e8b2{/,file:/C:/Users/nivergari/Documents/Deploy_Plugin/Plugin/WAS_Plugin/target/jenkins-for-test/,UNAVAILABLE}{C:\Users\nivergari\Documents\Deploy_Plugin\Plugin\WAS_Plugin\target\jenkins-for-test}
+Nov 06, 2019 11:11:18 AM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@2cae1042{/,null,AVAILABLE}
+Nov 06, 2019 11:11:18 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@7e928e2f{HTTP/1.1}{0.0.0.0:59067}
+Nov 06, 2019 11:11:18 AM org.eclipse.jetty.server.Server doStart
+INFO: Started @22415ms
+Nov 06, 2019 11:11:20 AM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@e57b96d{HTTP/1.1}{localhost:0}
+Nov 06, 2019 11:11:20 AM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@5be46f9d{/,file:/C:/Users/nivergari/Documents/Deploy_Plugin/Plugin/WAS_Plugin/target/jenkins-for-test/,UNAVAILABLE}{C:\Users\nivergari\Documents\Deploy_Plugin\Plugin\WAS_Plugin\target\jenkins-for-test}
 WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
 WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.

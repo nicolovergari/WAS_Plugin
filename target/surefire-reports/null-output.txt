@@ -1,2 +1,2 @@
-Nov 06, 2019 11:04:45 AM org.eclipse.jetty.util.log.Log initialized
-INFO: Logging initialized @526ms
+Nov 06, 2019 11:10:56 AM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @604ms

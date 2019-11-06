@@ -273,7 +273,7 @@ public class LibertyDeployerPlugin extends Notifier {
         }
 
         public String getDisplayName() {
-            return "Deploy To IBM WebSphere Liberty Profile";
+            return "Custom Deploy To IBM WebSphere Liberty Profile";
         }
 
         @Override

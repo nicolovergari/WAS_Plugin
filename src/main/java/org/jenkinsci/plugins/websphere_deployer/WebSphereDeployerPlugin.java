@@ -662,7 +662,7 @@ public class WebSphereDeployerPlugin extends Notifier {
         }
 
         public String getDisplayName() {
-        	return "Deploy To IBM WebSphere Application Server";
+        	return "Custom Deploy To IBM WebSphere Application Server";
         }
 
         @Override
